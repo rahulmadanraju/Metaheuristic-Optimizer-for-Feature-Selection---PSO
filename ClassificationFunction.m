@@ -1,9 +1,9 @@
 function [lb,ub,dim,fobj] = ClassificationFunction(F)
 
 fobj = @ClassificationFunction1;
-        lb=[%Set the lower ];
-        ub=[14.83	5.8	3.23	28.5	162	3.85	5.08	0.66	3.58	13	1.71	4	1680]; 
-        dim=13;
+        lb=[%Set the lower bound];
+        ub=[%Set the upper bound]; 
+        dim=%Set the dimension size;
 end
 
 function AccuracyT = ClassificationFunction1(X)
